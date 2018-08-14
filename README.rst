@@ -22,13 +22,13 @@ Publish package on PyPi
 The config requires a .pypirc file in your home folder with the following content:
 
 ::
-    [distutils]
-    index-servers = pypi
+  [distutils]
+  index-servers = pypi
 
-    [pypi]
-    repository: https://pypi.python.org/pypi
-    username: wajsbrot
-    password:
+  [pypi]
+  repository: https://pypi.python.org/pypi
+  username: wajsbrot
+  password:
 
 The package can be pushed with ``python setup.py sdist upload`` from the root directory of the project.
 
