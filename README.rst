@@ -20,7 +20,6 @@ Publish package on PyPi
 -----------------------
 
 The config requires a .pypirc file in your home folder with the following content:
-
 ::
   [distutils]
   index-servers = pypi
