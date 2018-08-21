@@ -58,3 +58,9 @@ Get only necessary dependencies (install pipreqs with ``pip install pipreqs``):
 Install required packages:
 ::
   pip install -r requirements.txt
+
+----------------------
+Create a documentation
+----------------------
+
+Just follow `this great tutorial <https://samnicholls.net/2016/06/15/how-to-sphinx-readthedocs/>`_. 
